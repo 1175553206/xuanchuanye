@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>宣传</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/jquery.fullPage.css">
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.fullPage.min.js"></script>
+    <script src="js/index.js"></script>
+
+</head>
+<body>
+<ul id="menu">
+    <li data-menuanchor="page1" class="active"><a href="#page1">置方地产</a></li>
+    <li data-menuanchor="page2"><a href="#page2">走进置方</a></li>
+    <li data-menuanchor="page3"><a href="#page3">置方案例</a></li>
+    <li data-menuanchor="page4"><a href="#page4">联系我们</a></li>
+</ul>
+
+<div id="dowebok">
+    <div class="section">
+        <div class="title1">
+            <p class="bt1">置方地产</p>
+            <p class="bt2">置方观天下,驭世界。</p>
+        </div>
+        <div class="bg1"></div>
+        <div class="bg2"></div>
+
+
+
+
+    </div>
+    <div class="section">
+        <div class="title2">
+            <p class="bt2-1">走进置方——注重生活点滴</p>
+            <p class="bt3">置方兴业房地产服务集团股份有限公司，
+                是国内一家具备将强实力的房地产综合服务商。
+                经过多年发展，公司致力于成为中国最优秀的房地产流通领域综合服务商，
+                坚持“一个平台，两个增长点”的总体战略，业务覆盖房地产代理销售、
+                房地产顾问策划、渠道整合营销以及商业物业运
+                营等地产流通领域全价值链服务。</p>
+        </div>
+        <div class="bg1"></div>
+        <div class="bg2"></div>
+        <div class="bg3"></div>
+    </div>
+    <div class="section">
+       <main class="zhuti">
+           <div class="zhuti-title">
+               <p class="bt5">案例</p>
+              <p class="bt4">cases</p>
+
+           </div>
+           <div class="zhuti-xia">
+               <div class="box">
+                   <div class="pic"><img src="img/sc7.jpg" alt=""></div>
+                   <section class="wenzi">咨询顾问</section>
+               </div>
+               <div class="box">
+                   <div class="pic"><img src="img/sc13.jpg" alt=""></div>
+                   <section class="wenzi">资产经营</section>
+               </div>
+               <div class="box">
+                   <div class="pic"><img src="img/sc4.jpg" alt=""></div>
+                   <section class="wenzi">营销代理</section>
+               </div>
+               <div class="box">
+                   <div class="pic"><img src="img/sc9.jpg" alt=""></div>
+                   <section class="wenzi">房产经营</section>
+               </div>
+
+           </div>
+
+       </main>
+        <div class="bg1"></div>
+
+    </div>
+    <div class="section">
+        <div class="title4">
+            <div class="box2">
+                <div class="biaoti">联系我们</div>
+                <div class="biaoti2">置方兴业房地产服务集团股份有限公司版权所有</div>
+            </div>
+            <div class="box2">
+                <div class="lianbox">
+                <div class="lianx">地址：北京市朝阳区南湖中园置方大厦</div>
+                <div class="lianx">电话：010-64714676</div>
+                <div class="lianx">传真：010-64714676</div>
+                <div class="lianx">邮箱：sc_dl@syswin.com</div>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="lianxiimg"><img src="img/img34.png" alt=""></div>
+                <div class="lianxiimg"><img src="img/img35.png" alt=""></div>
+            </div>
+        </div>
+        <div class="bg1"></div>
+        <div class="bg2"></div>
+        <div class="bg3"></div>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<a href="http://www.dowebok.com/" style="display: none;">dowebok</a>
+<a href="http://www.dowebok.com/77.html" style="display: none;">jQuery全屏滚动插件fullPage.js</a>
+
+
+
+
+</body>
+</html>
+
+<script>
+    $(function(){
+        $('#dowebok').fullpage({
+            sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90'],
+            anchors: ['page1', 'page2', 'page3', 'page4'],
+            menu: '#menu',
+            navigation:true,
+            scorllingSpeed:1000
+        });
+    });
+</script>
